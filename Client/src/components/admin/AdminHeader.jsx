@@ -43,7 +43,7 @@ const AdminHeader = () => {
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Avatar className="cursor-pointer">
-            <AvatarImage src={user?.profileImage ? `http://localhost:4000${user?.profileImage}` : "/avatar-holder.avif"} />
+            <AvatarImage src={user?.profileImage ? `https://role-based-auth-backend-103r.onrender.com${user?.profileImage}` : "/avatar-holder.avif"} />
             <AvatarFallback>
               {user?.name?.charAt(0)?.toUpperCase() || "A"}
             </AvatarFallback>

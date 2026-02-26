@@ -28,7 +28,7 @@ const Profile = () => {
       });
       setPreview(
         user?.profileImage
-          ? `http://localhost:4000${user?.profileImage}`
+          ? `https://role-based-auth-backend-103r.onrender.com${user?.profileImage}`
           : "/avatar-holder.avif",
       );
     }
