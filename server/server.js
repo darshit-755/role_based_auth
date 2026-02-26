@@ -16,7 +16,7 @@ dotenv.config();
 const app = express();
 app.use(Cors({
   origin: 
-  "http://localhost:5173",
+  "https://role-based-auth-q3me.onrender.com",
   credentials: true,
 }));
 
