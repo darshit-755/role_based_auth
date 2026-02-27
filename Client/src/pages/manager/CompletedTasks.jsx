@@ -208,7 +208,7 @@ export default function CompletedTasks() {
       </Card>
 
       {/* Tasks Table */}
-      <Card className="w-71.5 md:w-full">
+      <Card className="w-71.5 sm:w-full">
         <CardHeader>
           <CardTitle>Task History</CardTitle>
         </CardHeader>

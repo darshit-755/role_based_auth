@@ -270,7 +270,7 @@ export default function Task() {
       </Card>
 
       {/* TABLE */}
-      <div className="w-[286px] md:w-full mt-10">
+      <div className="w-[286px] sm:w-full mt-10">
         <h2 className="text-lg sm:text-xl font-semibold mb-4">
           Assigned Tasks
         </h2>
